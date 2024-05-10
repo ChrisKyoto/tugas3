@@ -4,6 +4,5 @@
       <NuxtPage/>
     </NuxtLayout>
     <VitePwaManifest />
-    <NuxtWelcome />
   </div>
 </template>

@@ -25,6 +25,16 @@ export default defineNuxtConfig({
         type: "images/png"
       }],
   },
+
+  app: {
+    head:{
+      link: [
+        {rel: "stylesheet", href: 
+"https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" }
+      ],
+    }
+  },
+
     devOptions: {
       enabled: true,
     }
